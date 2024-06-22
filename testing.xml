@@ -1,0 +1,25 @@
+<suite name = "Trello API">
+    <test name = "Create Requests">
+        <classes>
+            <class name = "TC_Pages.TC_CreateRequests.TC_CreateBoard"/>
+            <class name = "TC_Pages.TC_CreateRequests.TC_CreateList"/>
+            <class name = "TC_Pages.TC_CreateRequests.TC_CreateCard"/>
+            <class name = "TC_Pages.TC_CreateRequests.TC_CreateChecklist"/>
+        </classes>
+    </test>
+
+    <test name = "Get Requests">
+        <classes>
+            <class name = "TC_Pages.TC_GetRequests.TC_GetBoard"/>
+            <class name = "TC_Pages.TC_GetRequests.TC_GetList"/>
+            <class name = "TC_Pages.TC_GetRequests.TC_GetCard"/>
+        </classes>
+    </test>
+
+    <test name = "Delete Requests">
+        <classes>
+            <class name = "TC_Pages.TC_DeleteRequests.TC_DeleteCard"/>
+            <class name = "TC_Pages.TC_DeleteRequests.TC_DeleteBoard"/>
+        </classes>
+    </test>
+</suite>
